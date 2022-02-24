@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>π Game ✨</title>
+    <link href="./css/style.css" rel="stylesheet" />
+    <script src="./js/script.js"></script>
+</head>
+
+<body>
+    <h1>π Game ✨</h1>
+    <div class="screen-cnt">
+        <!-- Screen Section -->
+        <div class="screen">
+            <div class="correct-digit" id="crt-dg">0/0</div>
+            <div class="user-input" id="output">Click 🔘 to start!</div>
+        </div>
+
+    </div>
+
+    <div class="buttons">
+        <div class="btn-sec">
+            <div class="btn" onclick="getDigit(1)" id="d1">1</div>
+            <div class="btn" onclick="getDigit(2)" id="d2">2</div>
+            <div class="btn" onclick="getDigit(3)" id="d3">3</div>
+        </div>
+        <div class="btn-sec">
+            <div class="btn" onclick="getDigit(4)" id="d4">4</div>
+            <div class="btn" onclick="getDigit(5)" id="d5">5</div>
+            <div class="btn" onclick="getDigit(6)" id="d6">6</div>
+        </div>
+        <div class="btn-sec">
+            <div class="btn" onclick="getDigit(7)" id="d7">7</div>
+            <div class="btn" onclick="getDigit(8)" id="d8">8</div>
+            <div class="btn" onclick="getDigit(9)" id="d9">9</div>
+        </div>
+        <div class="btn-sec">
+            <div class="btn" onclick="getDigit(0)" id="d0">0</div>
+            <div class="btn" onclick="getDigit('.')" id="d.">.</div>
+            <div class="btn" onclick="start()" id="restart">🔘</div>
+        </div>
+    </div>
+</body>
+
+</html>

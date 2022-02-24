@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+* {
+    font-family: "Ubuntu", sans-serif;
+    color: aliceblue;
+}
+
+body {
+    background-color: #222222;
+}
+
+h1 {
+    text-align: center;
+}
+
+.screen-cnt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.screen {
+    width: 90%;
+    height: 70px;
+    background-color: grey;
+    border-radius: 5px;
+}
+
+.correct-digit {
+    margin: 5px;
+    color: #d9d9d9;
+}
+
+.user-input {
+    /* width:100%;*/
+    font-size: 1.6rem;
+    text-align: right;
+    margin: 5px;
+    color: #e8eaed;
+    font-weight: 600;
+    overflow-x: scroll;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.btn-sec {
+    display: flex;
+}
+
+.btn {
+    height: 70px;
+    width: 70px;
+    background-color: #3c4043;
+    box-shadow: 0 0 2px white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    color: #e8eaed;
+    color: #d9d9d9;
+    color: #dbdbdb;
+    margin: 15px 20px 15px 20px;
+    border-radius: 5px;
+    transition: 100ms linear;
+}
+
+.btn:active {
+    background-color: grey;
+    color: white;
+}
+
+#restart {
+    background-color: #222222;
+    box-shadow: 0 0 0 grey;
+}
+
+.colorIt {
+    background-color: red;
+}
+
+#d3:active {
+    background-color: grey;
+    color: white;
+}
