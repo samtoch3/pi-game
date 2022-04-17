@@ -1,5 +1,5 @@
 alert(
-    "π : The Mathematical Constant\n\n😯 - Again... Math Game \n😺 - Naah! It's Pi Game\n🥺 - Is it difficult to play?\n😺 - No! It is so simple, just try to remember as many  digits of π as you can.\n\n🔘 - Click to Start\n⚠️ - Click to restart\n\n---------------------------------\n\n• Google it for more! \n{👇 Click Fx -> π -> Play} \n https://tinyurl.com/rat-cat-sololearn\n\n\n--------------------------\n Player😍! Comment your Hi-Score..."
+    "π : Une Constante Mathematique\n\n😯 - Encore... Un jeu de Math \n😺 - C'est le Jeu π\n🥺 - Est-il dificilde jouer?\n😺 - Non! C'est très simplee, essayez de vous souvenir d'autant de chiffres de π que possible..\n\n🔘 - Cliquez pour démarrer\n⚠️ - Cliquez pour redémarrer\n\n\n"
 );
 
 let last = "";
